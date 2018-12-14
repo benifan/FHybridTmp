@@ -1,0 +1,32 @@
+
+def build_versions = [:]
+    build_versions.min_sdk = 14
+    build_versions.target_sdk = 26
+    build_versions.build_tools = '27.0.3'
+    build_versions.version_gradle = '3.1.2'
+ext.build_versions = build_versions
+
+def room = [:]
+    room.version = "1.1.0"
+ext.room = room
+
+def lifecycle = [:]
+    lifecycle.version = "1.1.1"
+ext.lifecycle = lifecycle
+
+def paging = [:]
+    paging.version = "1.0.0"
+ext.paging = paging
+
+def nav = [:]
+    nav.version = "1.0.0-alpha01"
+ext.nav = nav
+
+def support = [:]
+    support.version = '27.1.0'
+ext.support = support
+
+
+def navigation = [:]
+    navigation.version = '1.0.0-alpha01'
+ext.navigation = navigation
